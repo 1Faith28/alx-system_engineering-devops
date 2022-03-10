@@ -1,2 +1,2 @@
 #!/bin/bash
-f ind ./* -type d -pr int | wc -1
+find ./* -type d -print | wc -1
